@@ -52,7 +52,7 @@ def reverse_complement(sequence):
 def main(): 
     parser = argparse.ArgumentParser()
     parser.add_argument("dna_sequence", type=str, help="dna sequence to modify")
-
+        
     args = parser.parse_args()
     sequence = args.dna_sequence.upper()
 
